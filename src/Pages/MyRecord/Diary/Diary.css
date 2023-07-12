@@ -1,0 +1,31 @@
+.my-diary-title {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #414141
+}
+
+.diary-item {
+    border: 2px #707070 solid;
+    padding: 15px;
+}
+
+.diary-item .date-time {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.diary-item .content {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 17px;
+    padding: 15px 0;
+}
+
+/* for mobile responsive */
+@media only screen and (max-width: 426px){
+    .my-diary-wrapper {
+        margin: 15px;
+    }
+}

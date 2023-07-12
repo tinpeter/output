@@ -1,0 +1,40 @@
+.tabs-wrap {
+    padding: 0 75px;
+    margin: 50px auto;
+}
+
+.container-meal {
+    padding: 30px 115px;
+}
+
+.single-item-box img {
+    height: 234px;
+    z-index: 1;
+    overflow: hidden;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.thumbnail {
+    cursor: pointer;
+}
+
+.single-item-box .thumbnail {
+    position: relative;
+}
+
+.single-item-box p {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    color: white;
+    background: #FFCC21;
+    padding: 4px 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.custom-padding {
+    padding: 5px
+}

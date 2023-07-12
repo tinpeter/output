@@ -1,0 +1,73 @@
+.my-exercise-wrapper-items {
+    padding: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 195px;
+    margin-right: 10px !important;
+}
+
+.my-exercise-wrapper-bg {
+    background: #414141;
+    height: 264px;
+}
+
+.exercises-items {
+    padding: 0 10px;
+    border-bottom: 1px #777777 solid;
+}
+
+.exercises-items .title {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    align-items: center;
+}
+
+.exercises-items span {
+    color: #FFCC21;
+}
+
+.exercises-items .number {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.exercises-items .time {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.exercises-item .circle {
+    height: 5px;
+    width: 5px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+/* width */
+.my-exercise-wrapper ::-webkit-scrollbar {
+    width: 6px;
+}
+  
+/* Track */
+.my-exercise-wrapper ::-webkit-scrollbar-track {
+    background: #777777; 
+    border-radius: 10px;
+}
+   
+/* Handle */
+.my-exercise-wrapper ::-webkit-scrollbar-thumb {
+    background: #FFCC21; 
+    border-radius: 10px;
+}
+
+/* for mobile responsive */
+@media only screen and (max-width: 426px){
+    .my-exercise-wrapper {
+        margin: 15px;
+    }
+}

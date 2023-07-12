@@ -1,0 +1,30 @@
+.my-categories-tabs__item {
+    width: 219px;
+    height: 144px;
+    background: #000;
+}
+
+.my-categories-tabs__item .title {
+    color: #FFCC21;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 400;
+    padding: 25px 15px 15px;
+}
+
+.my-categories-tabs__item span {
+    color: #fff;
+    border-top: 1px #fff solid;
+    padding-top: 5px;
+}
+
+
+/* for mobile responsive */
+@media only screen and (max-width: 426px){
+    .my-categories-tabs__item {
+        width: 90% !important;
+        margin: 10px 0;
+        text-align: center;
+        display: inline-block;
+    }
+}

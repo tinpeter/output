@@ -1,0 +1,35 @@
+.my-record-tabs__item {
+    position: relative;
+    border: 24px #FFCC21 solid;
+}
+
+.my-record-tabs__item .img-item {
+    width: 240px;
+    height: 240px;
+}
+
+.my-record-tabs__item-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background: #000;
+    opacity: 0.8;
+}
+
+.my-record-tabs__item-content .title {
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFCC21;
+    font-weight: 400;
+    margin-top: 80px;
+}
+
+/* for mobile responsive */
+@media only screen and (max-width: 426px){
+    .my-record-tabs__item {
+        margin: 15px;
+    }
+}

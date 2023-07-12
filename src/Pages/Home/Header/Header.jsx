@@ -6,6 +6,7 @@ import icon_memo from '../../../Images/icon/icon_memo.png';
 import icon_challenge from '../../../Images/icon/icon_challenge.png';
 import icon_info from '../../../Images/icon/icon_info.png';
 import icon_menu from '../../../Images/icon/icon_menu.png';
+import icon_close from '../../../Images/icon/icon_close.png';
 import './Header.css';
 
 const Header = () => {
@@ -26,7 +27,11 @@ const Header = () => {
                             <Link to="/my-record" className='list-item text-decoration-none'><img src={icon_challenge} className="icon" alt="challenge" />チャレンジ</Link>
                             <Link to="/column-page" className='list-item text-decoration-none'><img src={icon_info} className="icon" alt="info" />お知らせ</Link>
                             <button type="button" className="icon-menu">
-                                <img src={icon_menu} alt="menu" onClick={showMoreMenu}/>
+                                {
+                                    isShowMenu ?
+                                    <img src={icon_close} alt="menu" onClick={showMoreMenu}/>
+                                    : <img src={icon_menu} alt="menu" onClick={showMoreMenu}/>
+                                }
                                 {
                                     isShowMenu ?
                                     <ul className="head-menu text-start">
